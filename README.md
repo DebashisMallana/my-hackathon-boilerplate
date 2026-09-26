@@ -1,16 +1,44 @@
-# React + Vite
+About the Problem Statement:
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The Problem Statement asks to move from the traditional inventory system wherein
+stocks of various entities were recorded manually in a register or maintained in an excel or a csv file. This required continuous monitoring of the system and
+is not at all feasible when it comes to large merchant shops or wholesale markets where the traffic is large or the people buy in wholesale.
 
-Currently, two official plugins are available:
+What we are asked to do :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+We have to build a system that answers the following questions :
 
-## React Compiler
+1. How much of each product do we have,
+2. where is it
+3. how did it get there
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
+Consider an example of a shop named
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Steel Rods
+
+SKU: STL-001
+
+
+Main Warehouse
+
+    70 units
+
+
+Production Rack
+
+    27 units
+
+
+----------------
+Total = 97 units
+
+The system must answer where did the 97 units came from, for example :
+
++100    received from vendor
+-20     delivered
+-3      damaged adjustment
++20     transfered to Production Rack
+
+-------------------------
+Total :97
