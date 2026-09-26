@@ -18,9 +18,7 @@ StockSense adresses the problems by providing centralised inventory management s
  4. search and filtering
 
 
-
- #DATABASE STRUCTURE
-
+#DATABASE STRUCTURE
 
 
                             ____________
@@ -51,12 +49,12 @@ StockSense adresses the problems by providing centralised inventory management s
                                                             |
                                                             V
                                                         ADJUSTMENTS
-
-
-ALL STOCK CAHNGING OPERATIONS
-            |
-            V
-        ______________
-        |STOCK LEDGER|
-        |____________|
+    ______________________________
+    |ALL STOCK CAHNGING OPERATIONS|
+    |_____________________________|
+                |
+                V
+            ______________
+            |STOCK LEDGER|
+            |____________|
             
