@@ -16,3 +16,47 @@ StockSense adresses the problems by providing centralised inventory management s
  2. Incoming and Outgoing stock operations
  3. Real time stock updates
  4. search and filtering
+
+
+
+ #DATABASE STRUCTURE
+
+
+
+                            ____________
+                           | CATEGORIES |
+                           |____________|
+                                  |
+                                  |
+                                  V
+                            ____________
+                           |  PRODUCTS  |
+                           |____________|
+                                  |
+                                  |
+                                  V
+                ______________________________________
+                |                |                  |
+                V                V                  V
+            RECIEPTS         DELIVERIES            STOCK
+                |                |                   |
+                V                V                   V                   
+              ITEMS            ITEMS              LOCATION
+                                                     ^
+                                                     |
+                                                     |
+                                                _____________
+                                                |           |
+                                            WAREHOUSE    TRANSFERS
+                                                            |
+                                                            V
+                                                        ADJUSTMENTS
+
+
+ALL STOCK CAHNGING OPERATIONS
+            |
+            V
+        ______________
+        |STOCK LEDGER|
+        |____________|
+            
