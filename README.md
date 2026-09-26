@@ -1,44 +1,15 @@
-About the Problem Statement:
+#StockSense
+a modular, real time inverntory management system that brings together all the products under one system and through the central system manages products, warehouses , stock operations, and inventory hsitory in one place
 
-The Problem Statement asks to move from the traditional inventory system wherein
-stocks of various entities were recorded manually in a register or maintained in an excel or a csv file. This required continuous monitoring of the system and
-is not at all feasible when it comes to large merchant shops or wholesale markets where the traffic is large or the people buy in wholesale.
+#Problem Statement
+Businesses often manage inventory using manual registers , excel sheets, and disconnected tracking systems. this makes it difficult to maintain accurate stock levels, track movements of stocks across warehouse, identify problems , maintain real time data and understand the history of inventory operations
 
-What we are asked to do :
-
-We have to build a system that answers the following questions :
-
-1. How much of each product do we have,
-2. where is it
-3. how did it get there
+StockSense adresses the problems by providing centralised inventory management system for inventory managers and warehoouse staff
 
 
-Consider an example of a shop named
-
-Steel Rods
-
-SKU: STL-001
-
-
-Main Warehouse
-
-    70 units
-
-
-Production Rack
-
-    27 units
-
-
-----------------
-Total = 97 units
-
-The system must answer where did the 97 units came from, for example :
-
-+100    received from vendor
--20     delivered
--3      damaged adjustment
-+20     transfered to Production Rack
-
--------------------------
-Total :97
+#Features
+ the system we built supports :
+ 1. Product and SKU Management
+ 2. Incoming and Outgoing stock operations
+ 3. Real time stock updates
+ 4. search and filtering
